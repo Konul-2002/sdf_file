@@ -1,0 +1,241 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-size: 18px;
+    font-weight: 500;
+}
+
+h1,button{
+    font-weight: bold;
+}
+img{
+    max-width: 100%;
+    max-height: 100%;
+}
+header{
+    background: url("https://raw.githubusercontent.com/afsanaQuliyeva/huddle/2ef8074ac4f9a5226e0476f71ce7772fd7d7991f/images/bg-hero-desktop.svg");
+    background-color: hsl(193, 100%, 96%);
+    padding: 40px 60px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+}
+.header-logo{
+    height: 35px;
+}
+.btn{
+    padding: 15px 60px;
+    background-color: #FFF;
+    border: none;
+    outline: none;
+    border-radius: 25px;
+    box-shadow: 0 5px 15px hsl(208, 11%, 55%);
+}
+.btn:focus{
+    margin: 0px 10px;
+    box-shadow: 3px 3px 10px 1px hsl(220, 12%, 50%);
+}
+.btn-1{
+    padding: 15px 60px;
+    background-color: hsl(322, 100%, 66%);
+    color: #ffffff;
+    border: none;
+    outline: none;
+    border-radius: 25px;
+    box-shadow: 0 5px 15px hsl(208, 11%, 55%);
+}
+.btn-1:focus{
+    margin: 0px 10px;
+    box-shadow: 3px 3px 10px 1px hsl(220, 12%, 50%);
+}
+.main{
+    display: flex;
+    padding: 60px 0px 20px;
+}
+.main-img{
+    width: 55%;
+}
+.main-text{
+    width: 45%;
+}
+.main-text h1{
+    font-size: 45px;
+    font-style: 900;
+    color: hsl(192, 100%, 9%);
+    padding-right: 40px;
+    margin: 35px 35px 35px 0px;
+}
+.main-text p{
+    padding-right: 40px;
+    margin: 30px 0px;
+    font-size: 20px;
+    color: hsl(192, 100%, 9%);
+    width: 90%;
+}
+.boxs{
+    display: flex;
+    flex-direction: column;
+    padding: 120px 70px 50px;
+    justify-content: center;
+    align-items: center;
+}
+.box-1, .box-2, .box-3{
+    width: auto;
+    height: 500px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 10px 50px 70px;
+    box-shadow: 0 5px 15px hsl(208, 11%, 55%);
+    margin: 50px;
+    border-radius: 25px;
+}
+.container img{
+    max-width: 100%;
+    width: 520px;
+    padding: 15px 80px 15px 60px;
+}
+.content{
+    padding-left: 70px;
+
+}
+.content h2{
+    margin: 10px 0px;
+}
+.content p{
+    width: 80%;
+    color: hsl(208, 11%, 55%);
+}
+.content-left{
+    margin: 0px;
+}
+
+.content-left p{
+    width: 80%;
+    color: hsl(208, 11%, 55%);
+}
+
+.box{
+    position: relative;
+    max-width: 100%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff;
+    margin: 0px 320px;
+    padding: 50px 0px; 
+    border-radius: 20px;
+    box-shadow: 0 5px 15px hsl(192, 100%, 9%);
+    bottom: -105px;
+}
+.box h1{
+    margin-bottom: 30px;
+}
+.btn2{
+    margin-top: 20px;
+    padding: 25px 100px;
+    border-radius: 40px;
+    border: none;
+    outline: none;
+    background-color: hsl(322, 100%, 66%);
+    color: #ffffff;
+    font-size: 18px;
+}
+.btn2:focus{
+    margin: 0px 10px;
+    box-shadow: 3px 3px 10px 1px hsl(220, 12%, 50%);
+}
+footer{
+    display: flex;
+    flex-direction: column;
+    padding: 200px 100px 50px 75px;
+    background-color: hsl(192, 100%, 9%);
+    color: #ffffff;
+    font-size: 20px;
+}
+.white-huddle{
+    width: 250px;
+    height: auto;
+    padding: 15px;
+}
+.footer-sec{
+    display: flex;
+    margin: 40px 0px;
+}
+
+.sec-1{
+    flex-direction: column;
+    min-width: 40%;
+    width: 40%;
+}
+.first-column{
+    display: flex;
+}
+.first-column img{
+    height: 18px;
+    width: 18px;
+    margin: 15px;
+}
+.first-column p{
+    margin: 10px 15px 0px 15px;
+}
+.sec-2, .sec-3{
+    font-size: 20px;
+    text-align: start;
+}
+.sec-2, .sec-3, .sec-4{
+    width: 20%;
+    padding: 20px;
+    margin-left: 40px;
+    outline: none;
+
+}
+.sec-3 ul li a{
+    padding: 0px 0px 15px;
+    text-align: start;
+}
+.sec-2 ul li a{
+    padding: 0px 0px 15px;
+    text-align: start;
+}
+.sec-4 ul li{
+    padding: 5px;
+}
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+ul li a{
+    width: 150px;
+    text-decoration: none;
+}
+.social{
+    display: flex;
+}
+.social a{
+    width: 40px;
+    height: 40px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    padding: 3px;
+    border: 1px solid #ffffff;
+}
+a{
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.copy{
+    text-align: right;
+}
+
